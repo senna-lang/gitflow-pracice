@@ -1,6 +1,9 @@
-// import { API_URL } from "@/constants/url";
 import { useState } from "react";
+import { TodoType } from "../types";
 
+type TodoProps = {
+   todo:TodoType
+}
 
 const Todo = () => {
   const API_URL = "";
